@@ -22,7 +22,7 @@ pod 'JPDownload'
 
 ## Author
 
-wangzhen, wangzhen@jiaparts.com
+wangzhen, 867480592@qq.com
 
 ## License
 
