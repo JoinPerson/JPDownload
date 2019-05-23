@@ -1,0 +1,6 @@
+framework module JPDownload {
+  umbrella header "JPDownload-umbrella.h"
+
+  export *
+  module * { export * }
+}

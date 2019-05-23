@@ -1,0 +1,22 @@
+{
+  "name": "JPDownload",
+  "version": "0.1.0",
+  "summary": "A short description of JPDownload.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wangzhen/JPDownload",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wangzhen": "wangzhen@jiaparts.com"
+  },
+  "source": {
+    "git": "https://github.com/wangzhen/JPDownload.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JPDownload/Classes/**/*"
+}

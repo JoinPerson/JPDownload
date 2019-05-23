@@ -1,0 +1,16 @@
+PODS:
+  - JPDownload (0.1.0)
+
+DEPENDENCIES:
+  - JPDownload (from `../`)
+
+EXTERNAL SOURCES:
+  JPDownload:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JPDownload: f80185ce4f85615935904d2b2fd939120161880c
+
+PODFILE CHECKSUM: 6db77321171f58cdd43d1e97d0a617e7115ceab0
+
+COCOAPODS: 1.6.1
