@@ -79,7 +79,7 @@ NSString *const JPBreakPointDownloadManagerErrorMessageKey = @"JPBreakPointDownl
     if (_fileHandle == nil) {
         NSFileManager *fileManager = [NSFileManager defaultManager];
         NSString *fileCache = [self.breakPointDownloadCachePath
-                               stringByAppendingPathComponent:[[[self.url lastPathComponent] stringByDeletingPathExtension] stringByAppendingPathExtension:@"tmp"]];
+                               stringByAppendingPathComponent:[[self.url stringByDeletingPathExtension] stringByAppendingPathExtension:@"tmp"]];
         // 文件不存在则创建
         if (![fileManager fileExistsAtPath:fileCache]) {
             [fileManager createFileAtPath:fileCache contents:nil attributes:nil];
@@ -112,7 +112,7 @@ NSString *const JPBreakPointDownloadManagerErrorMessageKey = @"JPBreakPointDownl
 {
     if (self.url.length != 0) {
         NSString *fileCache = [self.breakPointDownloadCachePath
-                               stringByAppendingPathComponent:[[[self.url lastPathComponent] stringByDeletingPathExtension] stringByAppendingPathExtension:@"tmp"]];
+                               stringByAppendingPathComponent:[[self.url stringByDeletingPathExtension] stringByAppendingPathExtension:@"tmp"]];
         [[NSFileManager defaultManager] removeItemAtPath:fileCache error:NULL];
     }
 }
@@ -142,7 +142,7 @@ NSString *const JPBreakPointDownloadManagerErrorMessageKey = @"JPBreakPointDownl
     self.breakPointFailureBlock = breakPointFailureBlock;
     self.breakPointCompletionBlock = breakPointCompletionBlock;
     NSString *fileCache = [self.breakPointDownloadCachePath
-                           stringByAppendingPathComponent:[[[self.url lastPathComponent] stringByDeletingPathExtension] stringByAppendingPathExtension:@"tmp"]];
+                           stringByAppendingPathComponent:[[self.url stringByDeletingPathExtension] stringByAppendingPathExtension:@"tmp"]];
     self.countOfBytesReceived = [self fileSizeForPath:fileCache];
     self.countOfBytesExpectedToReceive = 0;
     NSMutableURLRequest *mURLRequest = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:url]];
@@ -237,7 +237,7 @@ didCompleteWithError:(nullable NSError *)error
     } else {
         if (self.breakPointCompletionBlock != nil) {
             NSString *tempFileCache = [self.breakPointDownloadCachePath
-                                       stringByAppendingPathComponent:[[[self.url lastPathComponent] stringByDeletingPathExtension] stringByAppendingPathExtension:@"tmp"]];
+                                       stringByAppendingPathComponent:[[self.url stringByDeletingPathExtension] stringByAppendingPathExtension:@"tmp"]];
             self.breakPointCompletionBlock(self.countOfBytesReceived, self.countOfBytesExpectedToReceive, tempFileCache, task.response.suggestedFilename);
         }
     }
