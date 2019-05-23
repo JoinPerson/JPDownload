@@ -44,7 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0899F98EB164356E3C7FB1050BA138D3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0899F98EB164356E3C7FB1050BA138D3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0B44BB861B5FDA5819D21603598C022E /* Pods-JPDownload_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JPDownload_Example-umbrella.h"; sourceTree = "<group>"; };
 		11072BE59169A28C83BFFF00C86C247E /* JPDownloadManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPDownloadManager.m; path = JPDownload/Classes/JPDownloadManager.m; sourceTree = "<group>"; };
 		13B7A0E403780EA89FFBD700A3E95A8E /* JPDownload-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JPDownload-prefix.pch"; sourceTree = "<group>"; };
@@ -59,12 +59,12 @@
 		5A4E753A31D1475745925DC033DD6A73 /* JPDownload.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JPDownload.xcconfig; sourceTree = "<group>"; };
 		5D408B959BC459AF0E70690F7A16669B /* Pods-JPDownload_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JPDownload_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		61977E2AC8BC048F48330CF112A8F90E /* Pods-JPDownload_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JPDownload_Example.modulemap"; sourceTree = "<group>"; };
-		619ACC19764CE93FF1182A3CA5CB0380 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		619ACC19764CE93FF1182A3CA5CB0380 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		65F37D6423ABDC369BDB46D7B8FE18D4 /* Pods-JPDownload_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JPDownload_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		69D0810993A548EEAD460310F46F7D0D /* JPSliceDownloadManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPSliceDownloadManager.m; path = JPDownload/Classes/JPSliceDownloadManager.m; sourceTree = "<group>"; };
 		9416CC18FF045D4903698858321871B6 /* Pods-JPDownload_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JPDownload_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9AF162544A11F06A70A4F876D5ADA461 /* Pods_JPDownload_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JPDownload_Example.framework; path = "Pods-JPDownload_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AF162544A11F06A70A4F876D5ADA461 /* Pods_JPDownload_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JPDownload_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A65281DA0DBF1ADFDDCEE43E741037B4 /* Pods-JPDownload_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JPDownload_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B6D5F1EEE5A69EFE8DDC2533D2D93945 /* JPDownload-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JPDownload-Info.plist"; sourceTree = "<group>"; };
 		B8ED48CAFF592711357493A82A9D429D /* JPBreakPointDownloadManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPBreakPointDownloadManager.h; path = JPDownload/Classes/JPBreakPointDownloadManager.h; sourceTree = "<group>"; };
@@ -72,13 +72,13 @@
 		C1BC0E5ED9CE46656A0F55D0885E473B /* Pods-JPDownload_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JPDownload_Tests-dummy.m"; sourceTree = "<group>"; };
 		C819E10B7441C0F7C4E0446CD99A1CAE /* JPOnceDownloadManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPOnceDownloadManager.m; path = JPDownload/Classes/JPOnceDownloadManager.m; sourceTree = "<group>"; };
 		C89BF122AFD2DA13D36FF83504EF18CB /* Pods-JPDownload_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JPDownload_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CAC34FFD5E1BB7CF8FAAA352DD840132 /* JPDownload.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JPDownload.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CAC34FFD5E1BB7CF8FAAA352DD840132 /* JPDownload.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JPDownload.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CF07C5FE2C2D8AFCACA266B040657EAC /* JPOnceDownloadManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPOnceDownloadManager.h; path = JPDownload/Classes/JPOnceDownloadManager.h; sourceTree = "<group>"; };
-		D0D9B787EF65A7300ADEF1D88F5CEF25 /* Pods_JPDownload_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JPDownload_Tests.framework; path = "Pods-JPDownload_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0D9B787EF65A7300ADEF1D88F5CEF25 /* Pods_JPDownload_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JPDownload_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3AF71552360692B2239DB1CD7E769E3 /* Pods-JPDownload_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JPDownload_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D56AAD4D226EBE2B87BBAB169753E6A5 /* Pods-JPDownload_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JPDownload_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		E4138C5B9F16260C1210F8F41D179AF8 /* JPDownload.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JPDownload.framework; path = JPDownload.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4138C5B9F16260C1210F8F41D179AF8 /* JPDownload.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JPDownload.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC62DECCDE1B6E37C1E6CF168C886CD9 /* JPSliceDownloadManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPSliceDownloadManager.h; path = JPDownload/Classes/JPSliceDownloadManager.h; sourceTree = "<group>"; };
 		F3417FE82309BED9F183B83665B03D3C /* JPDownloadManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPDownloadManager.h; path = JPDownload/Classes/JPDownloadManager.h; sourceTree = "<group>"; };
 		F846B064AFCB4F3B9906FEE4462CADAC /* JPDownload.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JPDownload.modulemap; sourceTree = "<group>"; };
@@ -339,13 +339,14 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1020;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -435,6 +436,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -484,8 +486,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -529,6 +530,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

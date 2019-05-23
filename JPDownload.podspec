@@ -1,42 +1,12 @@
-#
-# Be sure to run `pod lib lint JPDownload.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
-  s.name             = 'JPDownload'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of JPDownload.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/wangzhen/JPDownload'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'wangzhen' => 'wangzhen@jiaparts.com' }
-  s.source           = { :git => 'https://github.com/wangzhen/JPDownload.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'JPDownload/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'JPDownload' => ['JPDownload/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.name         = 'JPDownload'
+  s.version      = '0.0.1'
+  s.summary      = '一个用于下载的工具里面包含一次性下载、分片下载、断点续传，可以根据业务需要选择相对应的下载功能'
+  s.homepage     = 'https://github.com/JoinPerson/JPDownload'
+  s.license      = { :type => 'MIT', :file => 'LICENSE' }
+  s.authors      = {'JoinPerson' => '867480592@qq.com'}
+  s.platform     = :ios, '8.0'
+  s.source       = {:git => 'https://github.com/JoinPerson/JPDownload.git', :tag => s.version}
+  s.source_files = 'JPDownload/Classes/*.{h,m}'
+  s.public_header_files = 'JPDownload/Classes/*.h'
 end
